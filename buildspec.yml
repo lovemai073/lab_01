@@ -4,7 +4,7 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Compiling the Go code...
-      - go build ./hello.go
+      - make -f lab_01/Makefile
 artifacts:
   files:
     - hello
