@@ -1,2 +1,2 @@
 all:
-	go build ./lab_01/hello.go
+	go build ./hello.go
