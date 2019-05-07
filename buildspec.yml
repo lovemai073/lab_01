@@ -6,6 +6,7 @@ phases:
       - echo Compiling the Go code...
       - make -f Makefile
       - printenv
+      - echo $AWS_DEFAULT_REGION
 artifacts:
   files:
     - hello
